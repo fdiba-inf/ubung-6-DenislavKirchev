@@ -17,7 +17,7 @@ public class PasswordCheck {
            validLength = false;
           }
           char[] password = new char [length];
-          System.out.println("Enter numbers: ");
+          System.out.println("Enter password: ");
           for(int i = 0; i < password.length; i++){
             password[i] = input.next().charAt(0);
             Character.isLetterOrDigit(password[i]);
