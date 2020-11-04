@@ -18,12 +18,20 @@ public class PasswordCheck {
           }
           char[] password = new char [length];
           System.out.println("Enter password: ");
+          count = 0;
           for(int i = 0; i < password.length; i++){
             password[i] = input.next().charAt(0);
-            Character.isLetterOrDigit(password[i]);
-            Character.isDigit(password[i]);
-            if(isDigit = true){
+            
+            
+            if(Character.isDigit(password[i])){
               count ++;
+            }
+          }
+          for(int i = 0; i < password.length; i++){
+            isLetterOrDigit = true;
+            if(Character.isLetterOrDigit(password[i])){
+              isLetterOrDigit = false;
+              continue;
             }
           }
         }while(isLetterOrDigit = false || count < 2 ||validLength == false);
