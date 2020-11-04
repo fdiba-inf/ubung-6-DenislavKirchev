@@ -13,6 +13,7 @@ public class PasswordCheck {
           System.out.println("Enter length: ");
           Scanner input = new Scanner(System.in);
           int length = input.nextInt();
+          assert length > 0;
           if(length < 8){
            validLength = false;
           }
