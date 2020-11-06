@@ -11,10 +11,11 @@ public class PasswordCheck {
         boolean check;
         int count1=0;
         int count2=0;
+        Scanner input = new Scanner(System.in);
 
         do{
             System.out.println("Enter length: ");
-            Scanner input = new Scanner(System.in);
+            
             int length = input.nextInt();
             if(length<8){
                 validLength=false;
