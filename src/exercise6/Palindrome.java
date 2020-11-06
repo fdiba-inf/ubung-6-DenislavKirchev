@@ -8,7 +8,7 @@ public class Palindrome {
         Scanner input = new Scanner(System.in);
 
         int n = input.nextInt();
-        assert n >0;
+        assert n > 0;
         int[] array = new int[n];
         for (int i = 0; i < n; i++) {
           array[i] = input.nextInt();
