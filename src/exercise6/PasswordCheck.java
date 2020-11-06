@@ -2,6 +2,7 @@ package exercise6;
 
 import java.util.Scanner;
 import java.lang.Character;
+import java.util.*;
 
 public class PasswordCheck {
     public static void main(String[] args) {
